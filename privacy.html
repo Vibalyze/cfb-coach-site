@@ -138,6 +138,16 @@
   tracking, and the game shows no tracking prompt. If statistics are off,
   nothing is sent.</p>
 
+  <p><strong>Links and install source.</strong> If the game is opened from a
+  link, the statistics note which kind of link it was (for example the
+  campaign name in it), never the full link. On Android the game reads once
+  which store campaign the install came from (Google Play&rsquo;s install
+  referrer: campaign names only, never an ad click ID). On iPhone the game
+  tells iOS how far an install got (for example &ldquo;finished the
+  intro&rdquo;) so Apple&rsquo;s SKAdNetwork can report anonymous,
+  aggregated campaign results; Apple sends those reports, which contain
+  nothing about you. If statistics are off, none of this happens.</p>
+
   <p><strong>&ldquo;Write to us&rdquo;.</strong> If you send us a message from
   the game&rsquo;s settings, we receive the message, its type (bug, idea or
   other), the app and system details above, the install ID (so we can match
